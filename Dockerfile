@@ -10,8 +10,8 @@ RUN apt-get install -y \
     python \
     python-dev \
     python-pip \
-    python-virtualenv
-    wget \
+    python-virtualenv \
+    wget
 RUN apt-get install -y \
     gcc \
     git-core \
