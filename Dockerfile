@@ -83,7 +83,7 @@ RUN echo `pwd`
 RUN apt-get install -y \
     python-dev \
     libxt-dev
-RUN make -j2
+#RUN make -j2
 #RUN make
 
 # # RUN Slicer
